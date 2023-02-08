@@ -20,4 +20,15 @@ Quete 3.1 Attaque XSS :
 Challenge 1 : <script> alert() </script>
 
 Challenge 2 : <blob src=c onerror=alert('Win')>
->>>>>>> c2d7a661234a55e45cabd8ff635d7c43ad995e60
+
+-------------------------------------------------
+ 
+  Quete 3.3 Attaque XSS Avancée :
+  
+  Challenge 3 : https://xss-game.appspot.com/level3/frame#1' onerror="alert('hacked')"
+  
+  Challenge 4 : 
+  
+  Challenge 5 : 
+  
+  Challenge 6 : 
