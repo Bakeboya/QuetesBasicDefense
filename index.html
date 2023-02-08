@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <title>Underworld underground</title>
 
     <link rel="stylesheet" type="text/css" href="vendors/bootstrap.min.css">
@@ -17,7 +17,7 @@
         <img src="img/taxi-driver.png" style="width: 150px; float:right; position:relative; left:65px; bottom: 50px;">
         <div style="background-color: #651BA1; margin-top: 10%; border-radius: 5px; padding: 1% 5%;">
 
-            <h1 class="text-center"> Hello, passeng... haem, you.</h1>
+            <h1 class="text-center"> Hello, I will repare this input !</h1>
 
             <p style="margin-top: 2%;">
                 <strong>Subway agent:</strong>
@@ -29,7 +29,7 @@
             <!-- XSS vulnerability
 
                     Hack hint: typing <script>alert(1)</script> in the input field won't work, but
-                    typing something like <img src=" " onerror="alert(1)"> will! -->
+                    typing something like <img src=" " onerror="alert('Broken Website é é')"> will! -->
 
             <input class="text-center" placeholder="Answer here." id="token-question" style="margin-bottom: 1%;">
 
@@ -44,10 +44,11 @@
         const input = document.getElementById("token-question");
         const log = document.getElementById("token-answer");
 
+
         input.addEventListener("input", updateValue);
 
         function updateValue(e) {
-            log.innerHTML = e.target.value;
+            log.innerText = e.target.value;
         }
 
     </script>
