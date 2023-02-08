@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+Challenge for the [Basics] XSS prevent quest !
+=======
 # QuetesBasicDefense
 
 https://google-gruyere.appspot.com/GRUYEREINSTANCEID/deletesnippet?index=0
@@ -17,3 +20,4 @@ Quete 3.1 Attaque XSS :
 Challenge 1 : <script> alert() </script>
 
 Challenge 2 : <blob src=c onerror=alert('Win')>
+>>>>>>> c2d7a661234a55e45cabd8ff635d7c43ad995e60
